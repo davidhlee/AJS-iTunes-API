@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.dependency 'AFNetworking'
-  s.dependency 'Mantle', '~> 1.2'
-  s.dependency 'ISO8601DateFormatter', '~> 0.6'
+  s.dependency 'Mantle'
+  s.dependency 'ISO8601DateFormatter'
 end
